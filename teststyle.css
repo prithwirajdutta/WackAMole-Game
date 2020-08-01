@@ -1,9 +1,13 @@
+.container{
+    background-color:#DAF7A6;
+}
 
 .square {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-style: solid;
     border-color: black;
+    background-color:white;
   }
   
   .grid {
@@ -11,8 +15,9 @@
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-    width: 618px;
-    height: 618px;
+    width: 450px;
+    height: 450px;
+    margin-top:50px;
   }
   
   .mole {

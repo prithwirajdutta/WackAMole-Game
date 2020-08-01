@@ -43,3 +43,12 @@ setInterval(() => {
         t=60
     }
 }, 500)
+
+// reset
+
+const reset = document.querySelector("#reset")
+reset.addEventListener("click",function(){
+    score.textContent = 0
+    timeLeft.textContent = 60
+    t=60
+})
